@@ -1,0 +1,18 @@
+Goals:
+	- To be able to send request using AngularJS AJAX.
+	- To be able to implement handling of AngularJS AJAX request.
+	- To be able to complete the implementation for 'Register Dish' Screen.
+	
+Things to be implemented:
+A. File location: war/js/bentoDish.js - registerDish()
+	1. Supply the properties of the dish item. 
+	   A dish consists of name, type and price.
+
+	2. Create an AngularJS AJAX request with 'dish' as the data.
+	   Send it to RegisterDishController.
+
+B. File location: src/bentoApp/controller/RegisterDishController.js - run()
+	1. Retrieve the request.
+       Save the data to a JSON object.
+
+	2. Set the dishDto with the retrieved data from the request.
